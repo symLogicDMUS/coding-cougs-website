@@ -1,38 +1,57 @@
 {
-  "name": "coding-cougs-website",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.15.0",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.2"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+    "name": "coding-cougs-website",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@codemirror/lang-javascript": "^0.19.2",
+        "@codemirror/language-data": "^0.19.1",
+        "@emotion/react": "^11.5.0",
+        "@emotion/styled": "^11.3.0",
+        "@mui/icons-material": "^5.1.0",
+        "@mui/material": "^5.1.0",
+        "@mui/styles": "^5.1.0",
+        "@testing-library/jest-dom": "^5.15.0",
+        "@testing-library/react": "^11.2.7",
+        "@testing-library/user-event": "^12.8.3",
+        "@uiw/react-codemirror": "^4.2.1",
+        "codemirror": "^5.63.3",
+        "prettier": "^2.4.1",
+        "prismjs": "^1.25.0",
+        "react": "^17.0.2",
+        "react-codemirror2": "^7.2.1",
+        "react-dom": "^17.0.2",
+        "react-marked-markdown": "^1.4.6",
+        "react-scripts": "4.0.3",
+        "react-simple-code-editor": "^0.11.0",
+        "react-syntax-highlighter": "^15.4.4",
+        "web-vitals": "^1.1.2"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@codemirror/lang-markdown": "^0.19.2",
+        "@uiw/react-textarea-code-editor": "^1.4.14"
+    }
 }
