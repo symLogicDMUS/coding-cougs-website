@@ -52,6 +52,7 @@
     },
     "devDependencies": {
         "@codemirror/lang-markdown": "^0.19.2",
-        "@uiw/react-textarea-code-editor": "^1.4.14"
+        "@uiw/react-textarea-code-editor": "^1.4.14",
+        "prop-types": "^15.7.2"
     }
 }
